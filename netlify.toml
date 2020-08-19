@@ -1,4 +1,11 @@
 [[redirects]]
+from = "/blog"
+to = "https://hannahwolfe.ghost.io/blog/"
+status = 200
+force = true
+headers = {X-Forwarded-Host = "proxy.hannahwolfe.co.uk"}
+
+[[redirects]]
 from = "/blog/*"
 to = "https://hannahwolfe.ghost.io/blog/:splat"
 status = 200
